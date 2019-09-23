@@ -15,6 +15,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <builds>
   <build>
     <plugins>
       <plugin>
@@ -34,4 +35,16 @@
       </plugin>
     </plugins>
   </build>
+    build>
+  <pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>4.0.0.1744</version>
+      </plugin>
+    </plugins>
+  </pluginManagement>
+</build>
+  </builds> 
 </project>
